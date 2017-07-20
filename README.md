@@ -15,4 +15,4 @@
 
 > NEC命名规范
 
-[链接](http://www.rew3c.com)
+[官网](http://www.rew3c.com)
