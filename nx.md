@@ -41,6 +41,6 @@ namespace-name.xmodifier guid
 | `.card` | `.nx-card` | 必须有类命名空间前缀 |
 | `.nx-card li` | `.nx-list > li` | 污染性太大，不能确定后代li选择器的唯一性 |
 | `.nx-card .nx-card-header` | `.nx-card-header` | 无意义的父类限定 |
-| `.nx-card-header-text` | `.nx-card-hdtext` | 组件所有后代元素的类名的形式:组件类名-后代类名 |
+| `.nx-card-header-text` | `.nx-card-hdtext` | 组件所有后代元素的类名形式为:组件类名-后代类名 |
 | `.xblue` | `.nx-card.xblue` | 修饰符不能单独使用 |
 | `.nx-card.blue` | `.nx-card.xblue` | 修饰符必须以字母x开头 |
