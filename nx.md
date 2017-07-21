@@ -2,8 +2,8 @@
 namespace-classname.xmodifier guid
 
 ### 基本选择器
-id选择器:不使用
-class选择器:推荐使用
+id选择器:不使用  
+class选择器:推荐使用  
 标签选择器:不单独使用，能保证唯一性时慎用,统一重置浏览器样式或其它css框架样式除外
 
 ### 命名方式
