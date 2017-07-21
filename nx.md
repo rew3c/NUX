@@ -1,7 +1,6 @@
 # 概述
 
-英文:namespace-name.xmodifier(css style guid)
-
+英文:namespace-name.xmodifier(css style guid)  
 中文:命名空间-名称.x前缀修饰符(样式命名规范)
 
 ### 规范原则
