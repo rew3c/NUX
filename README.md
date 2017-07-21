@@ -1,5 +1,8 @@
 # NX:namespace-classname.xmodifier is a guid that helps you to create css style framework.
-![image](https://github.com/rew3c/NX/blob/master/nx.png)
+
+
+![image](https://github.com/rew3c/NX/blob/master/nx.png)  
+
 
 NX规范是指：命名空间-CSS组件名称.x前缀修饰符，是帮助你建立css样式框架的一个规范指南。
 
