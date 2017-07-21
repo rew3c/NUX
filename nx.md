@@ -43,3 +43,4 @@ namespace-name.xmodifier guid
 | .nx-card .nx-card-header | .nx-card-header | 无意义的父类限定 |
 | .nx-card-header-text | .nx-card-hdtext | 不存在后代的后代元素类名 |
 | .xblue | .nx-card.xblue | 修饰符不能单独使用 |
+| .nx-card.blue | .nx-card.xblue | 修饰符必须以字母x开头 |
