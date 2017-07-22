@@ -1,5 +1,5 @@
 ## NUX GUID
-namespace-unitname.xmodifier guid
+namespace unit xmodifier guid
 
 ### 名词解释
 1. 单元:指页面中有明显视觉边界的视觉单元或独立的功能模块
