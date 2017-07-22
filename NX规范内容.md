@@ -12,8 +12,8 @@ namespace-name.xmodifier guid
 4. "x"解析:避免与引入的其它样式库的类名冲突,x开头的单词最少，且为中文修饰符的第一个字母
 
 ### 选择器
-+ id选择器禁止使用
-+ 能保证唯一性时慎用标签选择器，重置浏览器或其它样式库组件除外
++ 禁止使用ID选择器
++ 慎用标签选择器,除非能够保证唯一性时
 + 慎用后代选择器，只有当存在修饰符时，或后代为唯一的标签选择器时，才允许使用后代选择器
 
 ### 代码示例
@@ -37,10 +37,12 @@ namespace-name.xmodifier guid
 
 | 错误写法 | 正确写法 | 错误说明 |
 | ------- | -------- | --- |
-| `#nx-card` | `.nx-card` | id选择器禁止使用 |
+| `#nx-card` | `.nx-card` | 禁止使用ID选择器 |
 | `.card` | `.nx-card` | 必须有类命名空间前缀 |
-| `.nx-card li` | `.nx-list > li` | 污染性太大，不能确定后代li选择器的唯一性 |
+| `.nx-card li` | `.nx-list > li` | 污染性大，不能确定后代li选择器的唯一性 |
 | `.nx-card .nx-card-header` | `.nx-card-header` | 无意义的父类限定 |
-| `.nx-card-header-text` | `.nx-card-hdtext` | 组件所有后代元素的类名形式为:组件类名-后代类名 |
+| `.nx-card-header-text` | `.nx-card-hdtext` | 组件所有后代元素的类名的形式为:组件类名-后代类名 |
 | `.xblue` | `.nx-card.xblue` | 修饰符不能单独使用 |
 | `.nx-card.blue` | `.nx-card.xblue` | 修饰符必须以字母x开头 |
+
+### 参考规范
