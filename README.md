@@ -1,4 +1,5 @@
-# NUX:namespace-unitname.xmodifier is a guid that helps you to create css style framework.
+# NUX
+Namespace unit xmodifier is a guid that helps you to create css style framework.
   <br />
   <br /> 
   
