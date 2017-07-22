@@ -4,4 +4,4 @@
 ![image](https://github.com/rew3c/NUX/blob/master/logo.png)  
   <br />
   <br />  
-< (http://www.rew3c.com) >
+(http://www.rew3c.com)
