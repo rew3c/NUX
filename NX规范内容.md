@@ -45,7 +45,7 @@
 | `#nux-card` | `.nux-card` | 禁止使用ID选择器 |
 | `.card` | `.nux-card` | 必须有命名空间前缀 |
 | `.nux-card li` | `.nux-list > li` | 污染性大，不能确定后代li选择器的唯一性 |
-| `.nux-card .nux-card-header` | `.nux-card-header` | 无意义的父类限定 |
+| `.nux-card > .nux-card-header` | `.nux-card-header` | 无意义的父类限定 |
 | `.nux-card-header-text` | `.nux-card-headertext` | 组件所有后代元素的类名的形式为:组件类名-后代类名 |
 | `.xblue` | `.nux-card.xblue` | 修饰符不能单独使用 |
 | `.nux-card.blue` | `.nux-card.xblue` | 修饰符必须以字母x开头 |
