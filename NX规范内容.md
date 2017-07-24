@@ -2,8 +2,11 @@
 .namespace-unit.xmodifier
 
 ### 名词解释
-1. 样式单元：指页面中有明显视觉边界的视觉单元或完整的功能模块(如:导航，布局结构等)。
-2. 功能单元：指整站通用的单一功能性样式(如: `.nux-xhide { display:none; }` )
++. 样式单元：指页面中有明显视觉边界的视觉单元或完整的功能模块(如:导航，布局结构等)。
++. 功能单元：指整站通用的单一功能性样式
++. 命名空间：指项目采用的统一css前缀,分为两种：
+   1. 样式单元命名空间：统一css前缀(如:`.nux-hide`,表示一个隐藏组件);
+   2. 功能单元命名空间：样式单元命名空间+x(如:`.nuxx-hide`,表示一个通用的hide样式)
 
 ### 命名方式
 1. 样式单元：命名空间-单元名称(如: `.nux-nav` )；
@@ -49,4 +52,4 @@
 | `.nux-card-header-text` | `.nux-card-headertext` | 样式单元所有后代元素的类名:样式单元-后代类名 |
 | `.xblue` | `.nux-card.xblue` | 修饰符不能单独使用 |
 | `.nux-card.blue` | `.nux-card.xblue` | 修饰符必须以字母x开头 |
-| `.nux-hide {display:none;}` | `.nux-xhide {display:none;}` | 功能单元必须以字母x开头 |
+| `.nux-hide {display:none;}` | `.nuxx-hide {display:none;}` | 功能单元命名空间前缀必须以命名空间+"x"字母开头 |
